@@ -82,7 +82,7 @@ function h($value) {
             <p>性別：<?= h($Gender) ?></p>
             <p>カテゴリー：<?= h($Category) ?></p>
 
-            <a href="index.php">入力フォームに戻る</a>
+            <a href="form.php">入力フォームに戻る</a>
 
         <?php endif; ?>
 

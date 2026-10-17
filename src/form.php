@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
@@ -48,6 +47,17 @@
                     <option value="">選択してください</option>
                     <option value="男性">男性</option>
                     <option value="女性">女性</option>
+                    <option value="その他">その他</option>
+                    <option value="回答しない">回答しない</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="category">カテゴリー：</label>
+                <select id="category" name="Category">
+                    <option value="">選択してください</option>
+                    <option value="商品について">商品について</option>
+                    <option value="サービスについて">サービスについて</option>
+                    <option value="その他">その他</option>
                 </select>
             </div>
 
